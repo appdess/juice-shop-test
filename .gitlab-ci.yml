@@ -1,7 +1,4 @@
 include:
-  - template: Auto-DevOps.gitlab-ci.yml
-
-variables:
-  SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
-  TEST_DISABLED: "true"
-  DAST_DISABLED: "true"
+  - project: 'account-management/emea/roche-com/compliance-pipeline-pov/gitlab-offered-example/compliance-pipelines'
+    ref: main
+    file: '/pipeline.yml'
