@@ -1,4 +1,4 @@
 include:
-  - project: 'account-management/emea/roche-com/compliance-pipeline-pov/gitlab-offered-example/compliance-pipelines'
-    ref: main
-    file: '/pipeline.yml'
+  project: 'gitlab-com/account-management/emea/roche-com/compliance-pipeline-pov/gitlab-offered-example/compliance-pipelines'
+  ref: main
+  file: '/pipeline.yml'
